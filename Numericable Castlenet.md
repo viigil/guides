@@ -10,7 +10,7 @@ What does "WAN Blocking" (Advanced > Options) do? fully block incoming packets? 
 
 -->
 
-Si vous êtes sur de n'avoir change aucun paramètre sur votre box ou après un reset (Effectuer un reset est grandement conseillé dans la mesure du possible):
+Si vous êtes sur de n'avoir changé aucun paramètre sur votre box ou après un reset (Effectuer un reset est grandement conseillé dans la mesure du possible):
 
 * Changer votre SSID ("Numericable-0000" le nom publique de votre réseau Wi-Fi)
 * Passer du chiffrement Wi-Fi WEP par default au chiffrement WPA2
