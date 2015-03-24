@@ -5,8 +5,9 @@
 TODO: deactivate guest network
 
 TODO: Page on Reset 
+TODO: Page on hiding SSID
 
-Optionnaly: network closed -> hide ssid
+
 Optionally: deactivate interface?
 What does "WAN Blocking" (Advanced > Options) do? fully block incoming packets? (check with remote web interface enabled, port forwarding) 
 
@@ -30,12 +31,11 @@ Meme pas peur? C'est parti!
 
 ## Connection a l'interface
 
-L'interface de votre box est disponible a l'addresse [192.168.0.1](http://192.168.0.1) (Clickez ce lien ou entrez l'addresse dans
- votre navigateur manuellement)
+L'interface de votre box est disponible a l'addresse [192.168.0.1](http://192.168.0.1) (Clickez ce lien ou entrez l'addresse dans votre navigateur manuellement)
 
 
-  <iframe data-width="775" src="/content/images/interfaces/castlenet/login.html">
-  </iframe>
+<iframe data-width="775" src="/content/images/interfaces/castlenet/login.html">
+</iframe>
 
 
 #### Entrez le nom d'utilisateur et le mot de passe:
@@ -113,7 +113,7 @@ Ne vous compliquer pas necessairement  la vie, surtout si vous utilisez beaucoup
 Have another article with a calculator of cracking time and exponential plots-->
 
 
-#### Exemples
+#### Exemples 
 
 Soyez creatif! N'utilisez surtout pas les exemples ci-dessous! (Ou tout autre texte qu'un attaquant pourrait s'attendre a etre utilise)
 
