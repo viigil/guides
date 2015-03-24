@@ -73,7 +73,7 @@ Le SSID est public. Toute personne dans la vicinite de votre habitation peut fac
  * Saisissez <b data-interface-selector="[name=ServiceSetIdentifier]" data-layout="push" data-color="ctgreen">votre SSID</b>
  * Cliquez <b data-interface-selector="[value=Appliquer]" data-layout="push" data-color="ctorange">Appliquer</b>
  
-Notez que l'option *Open* dans *Type du reseau* n'a rien a voir avec le chiffrement. C'est une maladresse constructeur. Il s'agit en fait d'emettre ou non (cacher) votre SSID. En general, nous deconseillons de cacher votre SSID: cela n'apporte qu'un semblant de securite au deterimant de la simplicite. L'option <b><i>Type de reseau "Open"</i> est securisee, elle ne fait pas de votre reseau un reseau Ouvert.</b>
+Notez que l'option *Open* dans *Type du reseau* n'a rien a voir avec le chiffrement. C'est une maladresse constructeur. Il s'agit en fait d'emettre ou non (cacher) votre SSID. En general, nous deconseillons de cacher votre SSID: cela n'apporte qu'un semblant de securite au deterimant de la simplicite. **L'option** ***Type de reseau "Open"*** **est sécurisée, et	'1 ne fait pas de votre réseau un réseau Ouvert.**
 
 
 ## Chiffrement fort avec WPA2
