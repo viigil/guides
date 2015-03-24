@@ -35,11 +35,11 @@ L'interface de votre box est disponible a l'addresse [192.168.0.1](http://192.16
 
 
 
-<p class="float-left">
+<div class="float-left">
   <iframe data-width="775" src="/content/images/interfaces/castlenet/login.html">
   </iframe>
   <!--![Connexion a l'interface de la box Castlenet](/content/images/2015/03/CastlenetLogin-2.jpeg)-->
-</p>
+</div>
 
 #### Entrez le nom d'utilisateur et le mot de passe:
 
@@ -58,13 +58,13 @@ Le SSID est public. Toute personne dans la vicinite de votre habitation peut fac
 <!--Some company want to advertise their network with SSID-->
 
 
-<p class="float-left">
+<div class="float-left">
 
 <iframe data-height="450" data-width="775" src="/content/images/interfaces/castlenet/wireless_basic.html"></iframe>
 
 <!--![Get an image that shows after login screen -- Parametres Wi-Fi de la box Castlenet](/content/images/2015/03/parametreswifi_castlenet.jpg)-->
 
-</p>
+</div>
 
 #### Changement du SSID
 
@@ -88,10 +88,10 @@ Le chiffrement WEP est obsolete depuis plus de 10 ans et ne devrait jamais etre 
 
 
 
-<p class="float-left">
+<div class="float-left">
 <iframe data-height="450" data-width="905" src="/content/images/interfaces/castlenet/wireless_security.html"></iframe>
 <!--![Parametres Securite Wi-Fi de la box Castlenet](/content/images/2015/03/chang_securite_wifi_castelnet_01a_500px.jpg)-->
-</p>
+</div>
 
 #### Choisir le chiffrement WPA2
 
@@ -137,9 +137,9 @@ Bon: "<b class="ctgreen">1 velo</b> grimpe<b class="ctgreen">,</b> dans le Grand
 Moins bon: "<b class="ctred">Marion</b> grimpe dans le Grand Cedre."
 
 
-<p class="float-left">
+<div class="float-left">
 <iframe data-width="905" data-scroll="320" src="/content/images/interfaces/castlenet/wireless_security.html"></iframe>
-</p>
+</div>
 
 <!-- data-height="1050" -->
 
