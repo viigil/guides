@@ -101,13 +101,13 @@ Les passephrase sont plus facile a retenir, et souvent aussi rapide a entrer car
  Les passphrase sont donc souvent plus surs <b>et</b> plus faciles.
  
 #### Choisir sa passphrase
-Ne vous compliquer pas necessairement  la vie, surtout si vous utilisez beaucoup de passphrases. <b>La plus part des passphrase de plus de 3 mots devrait faire l'affaire.</b> Neanmoins plus vous respecterez ces quelque points, plus votre passphrase sera forte:
+Ne vous compliquer pas necessairement  la vie, surtout si vous utilisez beaucoup de passphrases. **La plus part des passphrase de plus de 3 mots devrait faire l'affaire.** Neanmoins plus vous respecterez ces quelque points, plus votre passphrase sera forte:
 
-* Absolu minimum de <b>3 mots </b><i>et</i> <b>10 characteres</b> au total
-* Au moins une majuscule <i>et</i> une ponctuation <i>et</i> un chiffre.
-* N'hesitez pas a utilisez des "vocabulaire personnel", moins les mots sont courrant mieux c'est, mais <b>pas</b> de noms personnels (enfants, <b>animaux</b> etc...)
-* Moins la phrase a de sens (commun) mieux c'est
-* Vous avez le droit de faire des f0tes d'orthographe! Plus la phrase a de fautes de grammaires et d'orthographe mieux c'est. Sans oublier de garder une phrase simple a retenir.
+  * Absolu minimum de **3 mots** *et* **10 characteres** au total
+  * Au moins une majuscule *et* une ponctuation *et* un chiffre.
+  * N'hesitez pas a utilisez des "vocabulaire personnel", moins les mots sont courrant mieux c'est, mais **pas** de noms personnels (enfants, **animaux de compagnie** etc...)
+  * Moins la phrase a de sens (commun) mieux c'est
+  * Vous avez le droit de faire des f0tes d'orthographe! Plus la phrase a de fautes de grammaires et d'orthographe mieux c'est. Sans oublier de garder une phrase simple a retenir.
 
 <!-- See http://www.bu.edu/infosec/howtos/how-to-choose-a-password/ for article on passwords 
 Have another article with a calculator of cracking time and exponential plots-->
