@@ -35,11 +35,11 @@ L'interface de votre box est disponible a l'addresse [192.168.0.1](http://192.16
 
 
 
-<div class="float-left">
+<b class="float-left">
   <iframe data-width="775" src="/content/images/interfaces/castlenet/login.html">
   </iframe>
   <!--![Connexion a l'interface de la box Castlenet](/content/images/2015/03/CastlenetLogin-2.jpeg)-->
-</div>
+</b>
 
 #### Entrez le nom d'utilisateur et le mot de passe:
 
@@ -58,13 +58,13 @@ Le SSID est public. Toute personne dans la vicinite de votre habitation peut fac
 <!--Some company want to advertise their network with SSID-->
 
 
-<div class="float-left">
+<b class="float-left">
 
 <iframe data-height="450" data-width="775" src="/content/images/interfaces/castlenet/wireless_basic.html"></iframe>
 
 <!--![Get an image that shows after login screen -- Parametres Wi-Fi de la box Castlenet](/content/images/2015/03/parametreswifi_castlenet.jpg)-->
 
-</div>
+</b>
 
 #### Changement du SSID
 
@@ -88,10 +88,10 @@ Le chiffrement WEP est obsolete depuis plus de 10 ans et ne devrait jamais etre 
 
 
 
-<div class="float-left">
+<b class="float-left">
 <iframe data-height="450" data-width="905" src="/content/images/interfaces/castlenet/wireless_security.html"></iframe>
 <!--![Parametres Securite Wi-Fi de la box Castlenet](/content/images/2015/03/chang_securite_wifi_castelnet_01a_500px.jpg)-->
-</div>
+</b>
 
 #### Choisir le chiffrement WPA2
 
@@ -106,7 +106,8 @@ Le chiffrement WEP est obsolete depuis plus de 10 ans et ne devrait jamais etre 
  
  
 ## Pre Shared Key forte
-Viigil recommendent less <b>passphrase</b> pour tout mot de passe que vous devez retenir ou tapper regulierement. Votre PSK (Mot de passe wifi) sera rarement utilisee, par exemple lorsque vous avez un nouvelle appareils qui n'est pas encore connecte a votre reseau Wi-Fi, et WPA, contrairement au chiffrement WEP (et autre site internet, qui peuvent parfois avoir des problemes avec les espaces egalement) accepte des PSK longue (63 characteres). N'hesitez donc pas a choisir une passphrase plus longue ou utilisez un mot de passe aleatoire conserve dans un coffre fort numerique.
+
+Viigil recommendent les **passphrases** pour tout mot de passe que vous devez retenir ou tapper regulierement. Votre PSK (Mot de passe wifi) sera rarement utilisee, par exemple lorsque vous avez un nouvelle appareils qui n'est pas encore connecte a votre reseau Wi-Fi, et WPA, contrairement au chiffrement WEP (et autre site internet, qui peuvent parfois avoir des problemes avec les espaces egalement) accepte des PSK longue (63 characteres). N'hesitez donc pas a choisir une passphrase plus longue ou utilisez un mot de passe aleatoire conserve dans un coffre fort numerique.
 
 #### Passphrase VS Mot de passe aleatoire
 Les passephrase sont plus facile a retenir, et souvent aussi rapide a entrer car elle contient des mots qui ont un sens pour vous (mais pas forcement des mots du dictionnaire, c'est d'ailleurs toujours mieux s'il ne s'y trouvent pas) contrairement aux mots de passe aleatoire ou beaucoup de gens hesitent/dechiffrent/se trompent a chaque charactere. Leur longueurs les rendent exponentiellement plus difficile a casser et leur ponctuations et majuscules permet d'ajouter de l'entropie naturellement (N'hesitez pas a en mettre, pensez egalement aux chiffres).
@@ -137,9 +138,9 @@ Bon: "<b class="ctgreen">1 velo</b> grimpe<b class="ctgreen">,</b> dans le Grand
 Moins bon: "<b class="ctred">Marion</b> grimpe dans le Grand Cedre."
 
 
-<div class="float-left">
+<b class="float-left">
 <iframe data-width="905" data-scroll="320" src="/content/images/interfaces/castlenet/wireless_security.html"></iframe>
-</div>
+</b>
 
 <!-- data-height="1050" -->
 
@@ -177,7 +178,7 @@ Le modem Castlenet va a l'encontre de toute les bases de la securite en ayant de
 L'access par WAN vous permet d'acceder a l'interface de votre modem en dehors de chez vous. C'est une porte ouverte au personne mal intentionne, surtout si par malheur vous avez les identifiants par default... A decsactive absolument sauf si vous en avez besoin dans un cas particulier (tres rare).
  
 
- #### Etape 1: Se rendre sur la page...
+#### Etape 1: Se rendre sur la page...
 
  * Menu <b class="darkorange">...</b>
  * Sous-menu <b class="darkyellow">...</b>
