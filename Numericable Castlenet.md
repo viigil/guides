@@ -1,3 +1,5 @@
+
+
 ## Vue d'ensemble
 
 <!-- 
@@ -34,7 +36,9 @@ Meme pas peur? C'est parti!
 L'interface de votre box est disponible a l'addresse [192.168.0.1](http://192.168.0.1) (Clickez ce lien ou entrez l'addresse dans votre navigateur manuellement)
 
 
-<iframe data-width="775" src="/content/images/interfaces/castlenet/login.html">
+<iframe data-interface >
+  "src": "/content/images/interfaces/castlenet/login.html",
+  "width": 775
 </iframe>
 
 
@@ -54,8 +58,10 @@ Le SSID est public. Toute personne dans la vicinite de votre habitation peut fac
 
 <!--Some company want to advertise their network with SSID-->
 
-
-<iframe data-height="450" data-width="775" src="/content/images/interfaces/castlenet/wireless_basic.html">
+<iframe data-interface >
+  "src": "/content/images/interfaces/castlenet/wireless_basic.html",
+  "height": 450,
+  "width": 775
 </iframe>
 
 
@@ -75,8 +81,12 @@ Notez que l'option *Open* dans *Type du reseau* n'a rien a voir avec le chiffrem
 Le chiffrement WEP est obsolete depuis plus de 10 ans et ne devrait jamais etre utilise de nos jour. Ordinateurs et autres appareils mobiles supportent tous WPA depuis des annees. Pas d'excuses.
 
 
+<iframe data-interface >
+  "src": "/content/images/interfaces/castlenet/wireless_security.html",
+  "height": 450,
+  "fitElsX": "td:has(> [name=WpaPreSharedKey])"
+</iframe>
 
-<iframe data-height="450" data-width="905"    src="/content/images/interfaces/castlenet/wireless_security.html"></iframe>
 
 
 #### Choisir le chiffrement WPA2
@@ -126,7 +136,11 @@ Moins bon: "<b class="ctred">Marion</b> grimpe dans le Grand Cedre."
 
 
 <!-- data-height="1050" -->
-<iframe data-width="905" data-scroll="320" src="/content/images/interfaces/castlenet/wireless_security.html"></iframe>
+<iframe data-interface >
+  "src": "/content/images/interfaces/castlenet/wireless_security.html",
+  "fitElsX": "td:has(> [name=WpaPreSharedKey])",
+  "scroll": 320
+</iframe>
 
 
 
