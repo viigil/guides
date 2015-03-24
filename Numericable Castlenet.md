@@ -2,6 +2,8 @@
 
 <!-- 
 
+TODO: deactivate guest network
+
 TODO: Page on Reset 
 
 Optionnaly: network closed -> hide ssid
@@ -22,24 +24,19 @@ Si vous n'effectuez pas de reset, soyez sur, **en plus** des etapes ci-dessus:
 * Que l'acces WAN a l'interface routeur est desactive
 * Que WPS est desactive
 
-<!-- TODO: deactivate guest network -->
 
 Meme pas peur? C'est parti!
 
 
 ## Connection a l'interface
 
-L'interface de votre box est disponible a l'addresse [192.168.0.1](http://192.168.0.1) (Clickez ce lien ou entrez l'addresse dans votre navigateur manuellement)
+L'interface de votre box est disponible a l'addresse [192.168.0.1](http://192.168.0.1) (Clickez ce lien ou entrez l'addresse dans
+ votre navigateur manuellement)
 
 
-
-
-
-<b class="float-left">
   <iframe data-width="775" src="/content/images/interfaces/castlenet/login.html">
   </iframe>
-  <!--![Connexion a l'interface de la box Castlenet](/content/images/2015/03/CastlenetLogin-2.jpeg)-->
-</b>
+
 
 #### Entrez le nom d'utilisateur et le mot de passe:
 
@@ -58,13 +55,10 @@ Le SSID est public. Toute personne dans la vicinite de votre habitation peut fac
 <!--Some company want to advertise their network with SSID-->
 
 
-<b class="float-left">
+<iframe data-height="450" data-width="775" src="/content/images/interfaces/castlenet/wireless_basic.html">
+</iframe>
 
-<iframe data-height="450" data-width="775" src="/content/images/interfaces/castlenet/wireless_basic.html"></iframe>
 
-<!--![Get an image that shows after login screen -- Parametres Wi-Fi de la box Castlenet](/content/images/2015/03/parametreswifi_castlenet.jpg)-->
-
-</b>
 
 #### Changement du SSID
 
@@ -82,16 +76,8 @@ Le chiffrement WEP est obsolete depuis plus de 10 ans et ne devrait jamais etre 
 
 
 
+<iframe data-height="450" data-width="905"    src="/content/images/interfaces/castlenet/wireless_security.html"></iframe>
 
-
-
-
-
-
-<b class="float-left">
-<iframe data-height="450" data-width="905" src="/content/images/interfaces/castlenet/wireless_security.html"></iframe>
-<!--![Parametres Securite Wi-Fi de la box Castlenet](/content/images/2015/03/chang_securite_wifi_castelnet_01a_500px.jpg)-->
-</b>
 
 #### Choisir le chiffrement WPA2
 
@@ -138,11 +124,11 @@ Bon: "<b class="ctgreen">1 velo</b> grimpe<b class="ctgreen">,</b> dans le Grand
 Moins bon: "<b class="ctred">Marion</b> grimpe dans le Grand Cedre."
 
 
-<b class="float-left">
-<iframe data-width="905" data-scroll="320" src="/content/images/interfaces/castlenet/wireless_security.html"></iframe>
-</b>
 
 <!-- data-height="1050" -->
+<iframe data-width="905" data-scroll="320" src="/content/images/interfaces/castlenet/wireless_security.html"></iframe>
+
+
 
 #### Changez votre passphrase
 
