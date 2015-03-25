@@ -145,7 +145,7 @@ Moins bon: "<b class="ctred">Marion</b> grimpe dans le Grand Cedre."
 
 #### Changez votre passphrase
 
-* Cliquez <b data-interface-selector="[name=ShowWpaKey]" data-layout="push" data-color="ctgreen">afficher la cle</b>
+* Cliquez <b data-interface-selector="[name=ShowWpaKey]" data-layout="push" data-color="ctgreen">afficher la clé</b>
 * Saisissez votre passphrase dans <b data-interface-selector="[name=WpaPreSharedKey]" data-layout="push" data-color="ctorange">Cle pre-partage WPA</b>
 * **Verifiez que votre cle correspond bien a celle que vous avez choisie.** Vous allez devoir l'utiliser maintenant pour reconnecter vos appareils.
 * Cliquez <b data-interface-selector="[value=Appliquer]" data-layout="push" data-color="ctyellow">Appliquer</b>
@@ -156,42 +156,52 @@ Moins bon: "<b class="ctred">Marion</b> grimpe dans le Grand Cedre."
 ## Changement des identifiants de l'interface
 Le modem Castlenet va a l'encontre de toute les bases de la sécurité en ayant des identifiants par défaut qui sont de plus **les mêmes chez chaque abonné**.
 
+Choisissez une passphrase de la meme maniere que pour votre PSK dans la rubrique *Pre Shared Key Forte*. Vous pouvez également utiliser un coffre fort numérique pour stocker et générer aléatoirement ce genre de mot de passe que vous utilisez peu souvent.
+
 <iframe data-interface >
   "src": "/content/images/interfaces/castlenet/status_security.html",
-  "width": 680
+  "width": 680,
+  "height": 400
 </iframe>
 
-#### Etape 1: Se rendre sur la page...
+#### Etape 1: Se rendre sur la page *Sécurité* du modem
 
  * Menu <b data-interface-selector="[src='./assets/btn_status_y.gif']" data-color="ctyellow">Status</b>
  * Sous-menu <b data-interface-selector="[src='./assets/btn_security_y_g.gif']" data-color="ctorange">Sécurité</b>
  
 
-#### Etape 2: Choisir le chiffrement WPA2
+<iframe data-interface >
+  "src": "/content/images/interfaces/castlenet/status_security.html",
+  "width": 680,
+  "height": 450
+</iframe>
 
- * ... Choisir *Active* pour <b class="violet">WPA2-PSK</b> (et pour aucun autre chiffrement)
- * ... Choisir *Active* pour <b class="darkgreen">Chiffrement WPA/WPA2</b>
- 
+
+#### Etape 2: Changer le mot de passe de l'interface
+  * utilisateur: <b data-interface-selector="[name=UserId]" data-layout="push" data-color="ctyellow">admin</b>
+  * Entrez votre mot de passe dans <b data-interface-selector="[name=Password]" data-layout="push" data-color="ctorange">Nouveau mot de passe</b> **et** <b data-interface-selector="[name=PasswordReEnter]" data-layout="push" data-color="ctorange">Re-entrer le nouveau mot de passe</b>
+  * Mot de passe actuel de l'utilisateur: <b data-interface-selector="[name=OldPassword]" data-layout="push" data-color="ctviolet">password</b>
+  
+ *N'oubliez pas de valider vos changement ci-dessous! (ou cliquez maintenant sur* ***Appliquer***
  
  
 ## Désactiver l’accès WAN a l'interface
 
-*L’accès WAN et WPS sont désactivé par défaut. Vérifiez, on est jamais trop prudent!*
+*L’accès WAN et WPS sont désactivé par défaut. Vérifiez: on est jamais trop prudent!*
 
 L'access par WAN vous permet d'acceder a l'interface de votre modem en dehors de chez vous. C'est une porte ouverte aux personnes mal intentionnées, surtout si par malheur vous avez les identifiants par défaut... A désactiver absolument sauf si vous en avez besoin dans un cas particulier (très rare).
  
 
-#### Etape 1: Se rendre sur la page...
+<iframe data-interface >
+  "src": "/content/images/interfaces/castlenet/status_security.html",
+  "width": 680
+</iframe>
 
- * Menu <b class="darkorange">...</b>
- * Sous-menu <b class="darkyellow">...</b>
+#### Désactivation de l’accès WAN
+
+ * Décochez <b data-interface-selector="[name=RemoteManagement]" data-color="ctorange">Controle a distance de la configuration du modem</b>
+ * Cliquez <b data-interface-selector="[value=Appliquer]" data-color="ctyellow">Appliquer</b>
  
-
-
-#### Etape 2: Choisir le chiffrement WPA2
-
- * ... Choisir *Active* pour <b class="violet">WPA2-PSK</b> (et pour aucun autre chiffrement)
- * ... Choisir *Active* pour <b class="darkgreen">Chiffrement WPA/WPA2</b>
  
  
 ## Désactiver WPS
@@ -205,15 +215,9 @@ Le mode *boutton* n'a pas les meme probleme mais il est preferable de se connect
 
 
 
+#### Etape 1: Se rendre sur la page des options de Sécurité Wi-Fi
 
-
-
-
-
-
-#### Etape 1: Se rendre sur la page...
-
- * Menu <b class="darkorange">...</b>
+ * Menu <b class="darkorange">.</b>
  * Sous-menu <b class="darkyellow">...</b>
  
 
