@@ -37,7 +37,7 @@ L'interface de votre box est disponible a l'addresse [192.168.0.1](http://192.16
 
 
 <iframe data-interface >
-  "src": "/content/images/interfaces/castlenet/login.html",
+  "src": "castlenet/login.html",
   "width": 775
 </iframe>
 
@@ -59,7 +59,7 @@ Le SSID est public. Toute personne dans la vicinite de votre habitation peut fac
 <!--Some company want to advertise their network with SSID-->
 
 <iframe data-interface >
-  "src": "/content/images/interfaces/castlenet/wireless_basic.html",
+  "src": "castlenet/wireless_basic.html",
   "height": 450,
   "width": 775
 </iframe>
@@ -81,7 +81,7 @@ Notez que l'option *Open* dans *Type du reseau* n'a rien a voir avec le chiffrem
 Le chiffrement WEP est obsolete depuis plus de 10 ans et ne devrait jamais etre utilise de nos jour. Ordinateurs et autres appareils mobiles supportent tous WPA depuis des annees. Pas d'excuses.
 
 <iframe data-interface >
-  "src": "/content/images/interfaces/castlenet/wireless_security.html",
+  "src": "castlenet/wireless_security.html",
   "height": 450,
   "fitElsX": "td:has(> [name=WpaPreSharedKey])"
 </iframe>
@@ -136,7 +136,7 @@ Moins bon: "<b class="ctred">Marion</b> grimpe dans le Grand Cedre."
 
 <!-- data-height="1050" -->
 <iframe data-interface >
-  "src": "/content/images/interfaces/castlenet/wireless_security.html",
+  "src": "castlenet/wireless_security.html",
   "fitElsX": "td:has(> [name=WpaPreSharedKey])",
   "scroll": 320
 </iframe>
@@ -159,7 +159,7 @@ Le modem Castlenet va a l'encontre de toute les bases de la sécurité en ayant 
 Choisissez une passphrase de la meme maniere que pour votre PSK dans la rubrique *Pre Shared Key Forte*. Vous pouvez également utiliser un coffre fort numérique pour stocker et générer aléatoirement ce genre de mot de passe que vous utilisez peu souvent.
 
 <iframe data-interface >
-  "src": "/content/images/interfaces/castlenet/status_security.html",
+  "src": "castlenet/status_security.html",
   "width": 680,
   "height": 400
 </iframe>
@@ -171,7 +171,7 @@ Choisissez une passphrase de la meme maniere que pour votre PSK dans la rubrique
  
 
 <iframe data-interface >
-  "src": "/content/images/interfaces/castlenet/status_security.html",
+  "src": "castlenet/status_security.html",
   "width": 680,
   "height": 450
 </iframe>
@@ -193,7 +193,7 @@ L'access par WAN vous permet d'acceder a l'interface de votre modem en dehors de
  
 
 <iframe data-interface >
-  "src": "/content/images/interfaces/castlenet/status_security.html",
+  "src": "castlenet/status_security.html",
   "width": 680
 </iframe>
 
