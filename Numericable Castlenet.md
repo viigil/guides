@@ -108,7 +108,7 @@ Viigil recommendent les **passphrases** pour tout mot de passe que vous devez re
 #### Passphrase VS Mot de passe aleatoire
 Les passephrase sont plus facile a retenir, et souvent aussi rapide a entrer car elle contient des mots qui ont un sens pour vous (mais pas forcement des mots du dictionnaire, c'est d'ailleurs toujours mieux s'il ne s'y trouvent pas) contrairement aux mots de passe aleatoire ou beaucoup de gens hesitent/dechiffrent/se trompent a chaque charactere. Leur longueurs les rendent exponentiellement plus difficile a casser et leur ponctuations et majuscules permet d'ajouter de l'entropie naturellement (N'hesitez pas a en mettre, pensez egalement aux chiffres).
  
- Les passphrase sont donc souvent plus surs <b>et</b> plus faciles.
+ Les passphrase sont donc souvent plus surs **et** plus faciles.
  
 #### Choisir sa passphrase
 Ne vous compliquer pas necessairement  la vie, surtout si vous utilisez beaucoup de passphrases. **La plus part des passphrase de plus de 3 mots devrait faire l'affaire.** Neanmoins plus vous respecterez ces quelque points, plus votre passphrase sera forte:
@@ -194,7 +194,7 @@ L'access par WAN vous permet d'acceder a l'interface de votre modem en dehors de
 ## Desactive WPS
 WPS permet de se connecter un nouvel appareil (ou un appareil ayant "oublier" les parametres Wi-Fi) avec un simple PIN (code) ou un appuyant un boutton reserver a cet usage sur le routeur.
 La securite mode PIN a toujours ete casse depuis le debut de sont exsistence avec des attaque pratique des 2011.
-Le mode <i>boutton</i> n'a pas les meme probleme mais il est preferable de se connecter avec votre passphrase. La plupart des routeur ne disassocie de tout facon pas les deux modes, obligeant l'utilisateur a se passer de WPS.
+Le mode <i>boutton</i> n'a pas les meme probleme mais il est preferable de se connecter avec votre passphrase. De plus, la plupart des routeurs ne dissocie malheureusement pas les deux modes, obligeant l'utilisateur a se passer de WPS.
 
 
 
