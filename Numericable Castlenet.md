@@ -200,7 +200,7 @@ WPS permet de se connecter un nouvel appareil (ou un appareil ayant "oublier" le
 
 La sécurité du mode PIN a toujours été casse depuis le début de sont existence avec des attaques pratiques des 2011.
 
-Le mode *boutton* n'a pas les meme probleme mais il est preferable de se connecter avec votre passphrase. De plus, la plupart des routeurs ne dissocie TOTO pas les deux modes, obligeant l'utilisateur a se passer de WPS.
+Le mode *boutton* n'a pas les meme probleme mais il est preferable de se connecter avec votre passphrase. De plus, la plupart des routeurs ne dissocie malheureusement pas les deux modes, obligeant l'utilisateur a se passer de WPS.
 
 
 
