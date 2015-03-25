@@ -73,13 +73,12 @@ Le SSID est public. Toute personne dans la vicinite de votre habitation peut fac
  * Saisissez <b data-interface-selector="[name=ServiceSetIdentifier]" data-layout="push" data-color="ctgreen">votre SSID</b>
  * Cliquez <b data-interface-selector="[value=Appliquer]" data-layout="push" data-color="ctorange">Appliquer</b>
  
-Notez que l'option *Open* dans *Type du reseau* n'a rien a voir avec le chiffrement. C'est une maladresse constructeur. Il s'agit en fait d'emettre ou non (cacher) votre SSID. En general, nous deconseillons de cacher votre SSID: cela n'apporte qu'un semblant de securite au deterimant de la simplicite. **L'option** ***Type de reseau "Open"*** **est sécurisée, et ne fait pas de votre réseau un réseau Ouvert.**
+Notez que l'option *Open* dans *Type du reseau* n'a rien a voir avec le chiffrement. C'est une maladresse constructeur. Il s'agit en fait d'emettre ou non (cacher) votre SSID. En général, nous déconseillons de cacher votre SSID: cela n'apporte qu'un semblant de sécurité au detrimant de la simplicité. **L'option** ***Type de reseau "Open"*** **est sécurisée, et ne fait pas de votre réseau un réseau Ouvert.**
 
 
 ## Chiffrement fort avec WPA2
 
 Le chiffrement WEP est obsolete depuis plus de 10 ans et ne devrait jamais etre utilise de nos jour. Ordinateurs et autres appareils mobiles supportent tous WPA depuis des annees. Pas d'excuses.
-
 
 <iframe data-interface >
   "src": "/content/images/interfaces/castlenet/wireless_security.html",
@@ -155,14 +154,17 @@ Moins bon: "<b class="ctred">Marion</b> grimpe dans le Grand Cedre."
 
 
 ## Changement des identifiants de l'interface
-Le modem Castlenet va a l'encontre de toute les bases de la securite en ayant des identifiants par default qui sont de plus <b>les memes chez chaque abonne</b>.
+Le modem Castlenet va a l'encontre de toute les bases de la sécurité en ayant des identifiants par défaut qui sont de plus **les mêmes chez chaque abonné**.
 
-
+<iframe data-interface >
+  "src": "/content/images/interfaces/castlenet/status_security.html",
+  "width": 680
+</iframe>
 
 #### Etape 1: Se rendre sur la page...
 
- * Menu <b class="darkorange">...</b>
- * Sous-menu <b class="darkyellow">...</b>
+ * Menu <b data-interface-selector="[src='./assets/btn_status_y.gif']" data-color="ctyellow">Status</b>
+ * Sous-menu <b data-interface-selector="[src='./assets/btn_security_y_g.gif']" data-color="ctorange">Sécurité</b>
  
 
 #### Etape 2: Choisir le chiffrement WPA2
@@ -172,10 +174,11 @@ Le modem Castlenet va a l'encontre de toute les bases de la securite en ayant de
  
  
  
-## Desactive l'access WAN a l'interface
-<i> L'access WAN est desactive par default. Conseil: verifier tout de meme!</i>
+## Désactiver l’accès WAN a l'interface
 
-L'access par WAN vous permet d'acceder a l'interface de votre modem en dehors de chez vous. C'est une porte ouverte au personne mal intentionne, surtout si par malheur vous avez les identifiants par default... A decsactive absolument sauf si vous en avez besoin dans un cas particulier (tres rare).
+*L’accès WAN et WPS sont désactivé par défaut. Vérifiez, on est jamais trop prudent!*
+
+L'access par WAN vous permet d'acceder a l'interface de votre modem en dehors de chez vous. C'est une porte ouverte aux personnes mal intentionnées, surtout si par malheur vous avez les identifiants par défaut... A désactiver absolument sauf si vous en avez besoin dans un cas particulier (très rare).
  
 
 #### Etape 1: Se rendre sur la page...
@@ -191,10 +194,13 @@ L'access par WAN vous permet d'acceder a l'interface de votre modem en dehors de
  * ... Choisir *Active* pour <b class="darkgreen">Chiffrement WPA/WPA2</b>
  
  
-## Desactive WPS
+## Désactiver WPS
+
 WPS permet de se connecter un nouvel appareil (ou un appareil ayant "oublier" les parametres Wi-Fi) avec un simple PIN (code) ou un appuyant un boutton reserver a cet usage sur le routeur.
-La securite mode PIN a toujours ete casse depuis le debut de sont exsistence avec des attaque pratique des 2011.
-Le mode <i>boutton</i> n'a pas les meme probleme mais il est preferable de se connecter avec votre passphrase. De plus, la plupart des routeurs ne dissocie malheureusement pas les deux modes, obligeant l'utilisateur a se passer de WPS.
+
+La sécurité du mode PIN a toujours été casse depuis le début de sont existence avec des attaques pratiques des 2011.
+
+Le mode *boutton* n'a pas les meme probleme mais il est preferable de se connecter avec votre passphrase. De plus, la plupart des routeurs ne dissocie malheureusement pas les deux modes, obligeant l'utilisateur a se passer de WPS.
 
 
 
