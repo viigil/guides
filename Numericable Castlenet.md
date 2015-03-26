@@ -38,7 +38,8 @@ L'interface de votre box est disponible a l'addresse [192.168.0.1](http://192.16
 
 <iframe data-interface >
   "src": "castlenet/login.html",
-  "width": 775
+  "width": 775,
+  "height": 600
 </iframe>
 
 
@@ -91,8 +92,8 @@ Le chiffrement WEP est obsolete depuis plus de 10 ans et ne devrait jamais etre 
 #### Choisir le chiffrement WPA2
 
  * Sous-menu <b data-interface-selector="[src='./assets/btn_security_y_g.gif']" data-color="ctorange">Securite</b>
- * Choisir *Active* pour <b data-interface-selector="[name=Wpa2PskAuth]" data-layout="push" data-color="ctviolet">WPA2-PSK</b> (et pour aucun autre chiffrement)
- * Choisir *AES* pour <b data-interface-selector="[name=WpaEncryption]" data-layout="push" data-color="ctgreen">Chiffrement WPA/WPA2</b>
+ * Choisissez *Active* pour <b data-interface-selector="[name=Wpa2PskAuth]" data-layout="push" data-color="ctviolet">WPA2-PSK</b> (et pour aucun autre chiffrement)
+ * Choisissez *AES* pour <b data-interface-selector="[name=WpaEncryption]" data-layout="push" data-color="ctgreen">Chiffrement WPA/WPA2</b>
  
 *N'oubliez pas de valider vos changement ci-dessous! (ou cliquez maintenant sur* ***Appliquer***
  
@@ -164,7 +165,7 @@ Choisissez une passphrase de la meme maniere que pour votre PSK dans la rubrique
   "height": 400
 </iframe>
 
-#### Etape 1: Se rendre sur la page *Sécurité* du modem
+#### Etape 1: Accès a la page des options de Sécurité du modem
 
  * Menu <b data-interface-selector="[src='./assets/btn_status_y.gif']" data-color="ctyellow">Status</b>
  * Sous-menu <b data-interface-selector="[src='./assets/btn_security_y_g.gif']" data-color="ctorange">Sécurité</b>
@@ -177,7 +178,7 @@ Choisissez une passphrase de la meme maniere que pour votre PSK dans la rubrique
 </iframe>
 
 
-#### Etape 2: Changer le mot de passe de l'interface
+#### Etape 2: Changement du mot de passe de l'interface
   * utilisateur: <b data-interface-selector="[name=UserId]" data-layout="push" data-color="ctyellow">admin</b>
   * Entrez votre mot de passe dans <b data-interface-selector="[name=Password]" data-layout="push" data-color="ctorange">Nouveau mot de passe</b> **et** <b data-interface-selector="[name=PasswordReEnter]" data-layout="push" data-color="ctorange">Re-entrer le nouveau mot de passe</b>
   * Mot de passe actuel de l'utilisateur: <b data-interface-selector="[name=OldPassword]" data-layout="push" data-color="ctviolet">password</b>
@@ -194,7 +195,8 @@ L'access par WAN vous permet d'acceder a l'interface de votre modem en dehors de
 
 <iframe data-interface >
   "src": "castlenet/status_security.html",
-  "width": 680
+  "width": 680,
+  "height": 600
 </iframe>
 
 #### Désactivation de l’accès WAN
@@ -212,22 +214,24 @@ La sécurité du mode PIN a toujours été casse depuis le début de sont existe
 
 Le mode *boutton* n'a pas les meme probleme mais il est preferable de se connecter avec votre passphrase. De plus, la plupart des routeurs ne dissocie malheureusement pas les deux modes, obligeant l'utilisateur a se passer de WPS.
 
+<iframe data-interface >
+  "src": "castlenet/wireless_security.html",
+  "width": 700,
+  "height": 450
+</iframe>
 
+#### Etape 1: Accès a la page des options de Sécurité Wi-Fi
 
-
-#### Etape 1: Se rendre sur la page des options de Sécurité Wi-Fi
-
- * Menu <b class="darkorange">.</b>
- * Sous-menu <b class="darkyellow">...</b>
+ * Menu <b data-interface-selector="[src='./assets/btn_wireless_y.gif']" data-color="ctyellow">Sans fil</b>
+ * Sous-menu <b data-interface-selector="[src='./assets/btn_security_y_g.gif']" data-color="ctorange">Sécurité</b>
  
+ 
+<iframe data-interface >
+  "src": "castlenet/wireless_security.html",
+  "height": 450
+</iframe>
 
+#### Etape 2: Desactivation de WPS
 
-
-
-
-
-
-#### Etape 2: Choisir le chiffrement WPA2
-
- * ... Choisir *Active* pour <b class="violet">WPA2-PSK</b> (et pour aucun autre chiffrement)
- * ... Choisir *Active* pour <b class="darkgreen">Chiffrement WPA/WPA2</b>
+ * Choisissez *Désactivé* pour <b data-interface-selector="[name=WpsConfig]" data-layout="push" data-color="ctviolet">Config WPS</b>
+ * Cliquez <b data-interface-selector="[value=Appliquer]:gt(0)" data-color="ctgreen">Appliquer</b>
