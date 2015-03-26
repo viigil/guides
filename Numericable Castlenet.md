@@ -104,7 +104,7 @@ Le chiffrement WEP est obsolete depuis plus de 10 ans et ne devrait jamais etre 
  
 ## Pre Shared Key forte
 
-Viigil recommendent les **passphrases** pour tout mot de passe que vous devez retenir ou tapper regulierement. Votre PSK (Mot de passe wifi) sera rarement utilisee, par exemple lorsque vous avez un nouvelle appareils qui n'est pas encore connecte a votre reseau Wi-Fi, et WPA, contrairement au chiffrement WEP (et autre site internet, qui peuvent parfois avoir des problemes avec les espaces egalement) accepte des PSK longue (63 characteres). N'hesitez donc pas a choisir une passphrase plus longue ou utilisez un mot de passe aleatoire conserve dans un coffre fort numerique.
+Viigil recommendent les **passphrases** pour tout mot de passe que vous devez retenir ou tapper regulierement. Votre PSK (Mot de passe wifi) sera rarement utilisé---par exemple lorsque vous avez un nouvel appareils qui n'est pas encore connecté a votre reseau Wi-Fi, et WPA, contrairement au chiffrement WEP (et autre site internet, qui peuvent parfois avoir des problèmes avec les espaces également) accepte des PSK longue (jusqu’à 63 caractères). N’hésitez donc pas a choisir une passphrase plus longue ou utilisez un mot de passe aléatoire conservé dans un coffre fort numérique.
 
 #### Passphrase VS Mot de passe aleatoire
 Les passephrase sont plus facile a retenir, et souvent aussi rapide a entrer car elle contient des mots qui ont un sens pour vous (mais pas forcement des mots du dictionnaire, c'est d'ailleurs toujours mieux s'il ne s'y trouvent pas) contrairement aux mots de passe aleatoire ou beaucoup de gens hesitent/dechiffrent/se trompent a chaque charactere. Leur longueurs les rendent exponentiellement plus difficile a casser et leur ponctuations et majuscules permet d'ajouter de l'entropie naturellement (N'hesitez pas a en mettre, pensez egalement aux chiffres).
@@ -112,27 +112,29 @@ Les passephrase sont plus facile a retenir, et souvent aussi rapide a entrer car
  Les passphrase sont donc souvent plus surs **et** plus faciles.
  
 #### Choisir sa passphrase
-Ne vous compliquer pas necessairement  la vie, surtout si vous utilisez beaucoup de passphrases. **La plus part des passphrase de plus de 3 mots devrait faire l'affaire.** Neanmoins plus vous respecterez ces quelque points, plus votre passphrase sera forte:
+Ne vous compliquer pas nécessairement  la vie, surtout si vous devez retenir beaucoup de passphrases.<!--TODO: safe--> **La plus part des passphrases de plus de 4 mots devrait faire l'affaire.** Neanmoins plus vous respecterez ces quelque points, plus votre passphrase sera forte:
 
-  * Absolu minimum de **3 mots** *et* **10 characteres** au total
+  * Au minimum **5 mots**. Cette règle seule peut suffire si vous n’utilisez pas les 5 mots les plus utilises du dictionnaire. Par contre, n'y déroger que si vous êtes sur de ce que vous faites. <!--*et* **10 caractères** au total-->
   * Au moins une majuscule *et* une ponctuation *et* un chiffre.
-  * N'hesitez pas a utilisez des "vocabulaire personnel", moins les mots sont courrant mieux c'est, mais **pas** de noms personnels (enfants, **animaux de compagnie** etc...)
-  * Moins la phrase a de sens (commun) mieux c'est
-  * Vous avez le droit de faire des f0tes d'orthographe! Plus la phrase a de fautes de grammaires et d'orthographe mieux c'est. Sans oublier de garder une phrase simple a retenir.
+  * N’hésitez pas a utilisez des "langage personnel", moins les mots sont courant mieux c'est, mais **pas** de noms personnels (enfants, **animaux de compagnie** etc...)
+  * Moins la phrase a de sens *commun* mieux c'est
+  * Vous avez le droit de faire des f0tes d'orthogaphe! Faire des fautes syntaxique, orthographique ou de grammaire augmente grandement la securite de votre passphrase. Inventez des mots nouveaux (gardez les pour vous) et amusant, n'oubliez de garder une phrase simple a retenir---de maniere general plus la phrase est **atypique** plus elle **simple a reternir**.
 <!-- length, number of items SPACE,NUMBER,WORD,PUNCTUATION is necessary
 Add count to examples -->
 <!-- See http://www.bu.edu/infosec/howtos/how-to-choose-a-password/ for article on passwords 
-Have another article with a calculator of cracking time and exponential plots-->
+Have another article with a calculator of cracking time and exponential plots
+TODO: how to choose something obscure 
+TODO: count words in passphrase -->
 
 
 #### Exemples 
 
 Soyez creatif! N'utilisez surtout pas les exemples ci-dessous! (Ou tout autre texte qu'un attaquant pourrait s'attendre a etre utilise)
 
-Bon: "<b class="ctgreen">1 escalavelo</b> grimp<span class="ctgreen">ed</span>ans le <b class="ctgreen">G</b>rand <b class="ctgreen">C</b>edre." 
+Bon: "<b class="ctgreen">1 escalavelo</b> grimpe dans le <b class="ctgreen">G</b>rand <b class="ctgreen">C</b>edre." 
 Moins bon: "<b class="ctred">Marion</b> grimpe dans le grand cedre."
 
-Bon: "<b class="ctgreen">L'elephoque</b> fait <b class="ctgreen">10</b> brasses<b class="ctgreen">. D</b>ans le <b class="ctgreen">ChocolatChaud!</b>"
+Bon: "<b class="ctgreen">L'elephoque</b> fait <b class="ctgreen">10</b> brasses<b class="ctgreen">. D</b>ans la <b class="ctgreen">reserviere!</b>"
 Moins bon: "La <b class="ctred">loutre</b> fait <b class="ctred">dix</b> brasses dans la <b class="ctred">riviere</b>"
 
 
