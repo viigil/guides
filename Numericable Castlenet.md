@@ -8,6 +8,7 @@ TODO: deactivate guest network
 
 TODO: Page on Reset 
 TODO: Page on hiding SSID
+TODO: Page on strong password / safes / yubikey
 
 
 Optionally: deactivate interface?
@@ -118,7 +119,8 @@ Ne vous compliquer pas necessairement  la vie, surtout si vous utilisez beaucoup
   * N'hesitez pas a utilisez des "vocabulaire personnel", moins les mots sont courrant mieux c'est, mais **pas** de noms personnels (enfants, **animaux de compagnie** etc...)
   * Moins la phrase a de sens (commun) mieux c'est
   * Vous avez le droit de faire des f0tes d'orthographe! Plus la phrase a de fautes de grammaires et d'orthographe mieux c'est. Sans oublier de garder une phrase simple a retenir.
-
+<!-- length, number of items SPACE,NUMBER,WORD,PUNCTUATION is necessary
+Add count to examples -->
 <!-- See http://www.bu.edu/infosec/howtos/how-to-choose-a-password/ for article on passwords 
 Have another article with a calculator of cracking time and exponential plots-->
 
@@ -127,11 +129,11 @@ Have another article with a calculator of cracking time and exponential plots-->
 
 Soyez creatif! N'utilisez surtout pas les exemples ci-dessous! (Ou tout autre texte qu'un attaquant pourrait s'attendre a etre utilise)
 
-Bon: "L<b class="ctgreen">'ecureil</b> fait <b class="ctgreen">10</b> brasses<b class="ctgreen">. D</b>ans le <b class="ctgreen">chocolat chaud!</b>"
-Moins bon: "La <b class="ctred">loutre</b> fait <b class="ctred">dix</b> brasses dans la <b class="ctred">riviere</b>"
+Bon: "<b class="ctgreen">1 escalavelo</b> grimp<span class="ctgreen">ed</span>ans le <b class="ctgreen">G</b>rand <b class="ctgreen">C</b>edre." 
+Moins bon: "<b class="ctred">Marion</b> grimpe dans le grand cedre."
 
-Bon: "<b class="ctgreen">1 velo</b> grimpe<b class="ctgreen">,</b> dans le Grand Cedre." 
-Moins bon: "<b class="ctred">Marion</b> grimpe dans le Grand Cedre."
+Bon: "<b class="ctgreen">L'elephoque</b> fait <b class="ctgreen">10</b> brasses<b class="ctgreen">. D</b>ans le <b class="ctgreen">ChocolatChaud!</b>"
+Moins bon: "La <b class="ctred">loutre</b> fait <b class="ctred">dix</b> brasses dans la <b class="ctred">riviere</b>"
 
 
 
@@ -173,17 +175,18 @@ Choisissez une passphrase de la meme maniere que pour votre PSK dans la rubrique
 
 <iframe data-interface >
   "src": "castlenet/status_security.html",
+  "vbreak": true,
   "width": 680,
   "height": 450
 </iframe>
 
 
 #### Etape 2: Changement du mot de passe de l'interface
-  * utilisateur: <b data-interface-selector="[name=UserId]" data-layout="push" data-color="ctyellow">admin</b>
+  * utilisateur: <b data-interface-selector="[name=UserId]" data-layout="push" data-color="ctgreen">admin</b>
   * Entrez votre mot de passe dans <b data-interface-selector="[name=Password]" data-layout="push" data-color="ctorange">Nouveau mot de passe</b> **et** <b data-interface-selector="[name=PasswordReEnter]" data-layout="push" data-color="ctorange">Re-entrer le nouveau mot de passe</b>
   * Mot de passe actuel de l'utilisateur: <b data-interface-selector="[name=OldPassword]" data-layout="push" data-color="ctviolet">password</b>
   
- *N'oubliez pas de valider vos changement ci-dessous! (ou cliquez maintenant sur* ***Appliquer***
+ *N'oubliez pas de valider vos changement ci-dessous! (ou cliquez maintenant sur* ***Appliquer***)
  
  
 ## Désactiver l’accès WAN a l'interface
@@ -228,10 +231,12 @@ Le mode *boutton* n'a pas les meme probleme mais il est preferable de se connect
  
 <iframe data-interface >
   "src": "castlenet/wireless_security.html",
+  "vbreak": true,
+  "width": 1130,
   "height": 450
 </iframe>
 
-#### Etape 2: Desactivation de WPS
+#### Etape 2: Désactivation de WPS
 
  * Choisissez *Désactivé* pour <b data-interface-selector="[name=WpsConfig]" data-layout="push" data-color="ctviolet">Config WPS</b>
  * Cliquez <b data-interface-selector="[value=Appliquer]:gt(0)" data-color="ctgreen">Appliquer</b>
