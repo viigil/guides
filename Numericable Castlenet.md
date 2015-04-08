@@ -12,7 +12,7 @@ TODO: Page on strong password / safes / yubikey
 
 
 Optionally: deactivate interface?
-What does "WAN Blocking" (Advanced > Options) do? fully block incoming packets? (check with remote web interface enabled, port forwarding) 
+What does "WAN Blocking" (Advanced | Options) do? fully block incoming packets? (check with remote web interface enabled, port forwarding) 
 
 -->
 
@@ -187,8 +187,8 @@ Choisissez une passphrase de la meme maniere que pour votre PSK dans la rubrique
   * utilisateur: <b data-interface-selector="[name=UserId]" data-layout="push" data-color="ctgreen">admin</b>
   * Entrez votre mot de passe dans <b data-interface-selector="[name=Password]" data-layout="push" data-color="ctorange">Nouveau mot de passe</b> **et** <b data-interface-selector="[name=PasswordReEnter]" data-layout="push" data-color="ctorange">Re-entrer le nouveau mot de passe</b>
   * Mot de passe actuel de l'utilisateur: <b data-interface-selector="[name=OldPassword]" data-layout="push" data-color="ctviolet">password</b>
-  
- *N'oubliez pas de valider vos changement ci-dessous! (ou cliquez maintenant sur* ***Appliquer***)
+
+*N'oubliez pas de valider vos changement ci-dessous! (ou cliquez maintenant sur* ***Appliquer***)
  
  
 ## Désactiver l’accès WAN a l'interface
