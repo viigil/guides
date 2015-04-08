@@ -18,23 +18,21 @@ What does "WAN Blocking" (Advanced | Options) do? fully block incoming packets? 
 
 Si vous êtes sur de n'avoir changé aucun paramètre sur votre box ou après un reset (Effectuer un reset est grandement conseillé dans la mesure du possible):
 
-* Changer votre SSID ("Numericable-0000" le nom publique de votre réseau Wi-Fi)
-* Passer du chiffrement Wi-Fi WEP par default au chiffrement WPA2
-* Utiliser une Pre Shared Key (mot de passe Wi-Fi) forte
-* Changer le mot de passe par default de l'interface routeur
+* Changez votre SSID (*Numericable-0000* le *nom* public de votre réseau Wi-Fi)
+* Passez du chiffrement Wi-Fi WEP par défaut au chiffrement WPA2
+* Utilisez une Pre Shared Key (mot de passe Wi-Fi) forte
+* Changez le mot de passe par défaut de l'interface routeur
 
-Si vous n'effectuez pas de reset, soyez sur, **en plus** des etapes ci-dessus:
+Si vous n'effectuez pas de reset, soyez sur, **en plus** des étapes ci-dessus:
 
-* Que l'acces WAN a l'interface routeur est desactive
-* Que WPS est desactive
-
-
-Meme pas peur? C'est parti!
+* Que l’accès WAN à l'interface routeur est désactivé
+* Que WPS est désactivé
 
 
-## Connection a l'interface
 
-L'interface de votre box est disponible a l'addresse [192.168.0.1](http://192.168.0.1) (Clickez ce lien ou entrez l'addresse dans votre navigateur manuellement)
+## Connexion à l'interface
+
+L'interface de votre box est disponible à l’adresse [192.168.0.1](http://192.168.0.1) (Cliquez ce lien ou entrez l’adresse dans votre navigateur manuellement)
 
 
 <iframe data-interface >
@@ -49,13 +47,13 @@ L'interface de votre box est disponible a l'addresse [192.168.0.1](http://192.16
 * Nom d'utilisateur: <b data-interface-selector="[name=loginUsername]" data-layout="push" data-color="ctyellow">admin</b>
 * Mot de passe: <b data-interface-selector="[name=loginPassword]" data-layout="push" data-color="ctorange">password</b>
 
-(A changer imperativement dans la rubrique *Changement des identifiants de l'interface* ci-dessous, si ce n'est deja fait)
+(A changer impérativement dans la rubrique *Changement des identifiants de l'interface* ci-dessous, si ce n'est déjà fait)
 
 
 ## Changer votre SSID
-Le SSID est public. Toute personne dans la vicinite de votre habitation peut facilement l'obtenir. Évitez donc toute information personnelle, comme le nom de votre fournisseur Internet! Ce dernier est egalement source de confusion en ville ou l'on trouve une forte concentration de reseau wifi. Votre SSID est en revanche moins critique que votre PSK (mot de passe) et ne premet pas par lui meme la connection a votre reseau, choissez donc quelquechose de familier comme par exemple l'espece des arbres dans votre rue.
+Le SSID est public. Toute personne à proximité de votre habitation peut facilement l'obtenir. Évitez donc toute information personnelle, comme le nom de votre fournisseur Internet! Ce dernier est également source de confusion en ville ou l'on trouve une forte concentration de réseau wifi. Votre SSID est en revanche moins critique que votre PSK (mot de passe) et ne permet pas par lui--même la connexion à votre réseau, choisissez donc quelque chose de familier comme par exemple l’espèce des arbres de votre rue.
 
-> Notez qu'une autre information publique, votre BSSID, continuera a renseigner le nom de votre fournisseur Internet. Si vous voulez aller plus loin, vous devrez donc desactive le Wi-Fi de votre box et utilisez, au besoin, un autre routeur Wi-Fi.
+> Notez qu'une autre information publique, votre BSSID, continuera à renseigner le nom de votre fournisseur Internet. Si vous voulez aller plus loin, vous devrez donc désactiver le Wi-Fi de votre box et utiliser, au besoin, un autre routeur Wi-Fi.
 
 
 <!--Some company want to advertise their network with SSID-->
@@ -75,12 +73,12 @@ Le SSID est public. Toute personne dans la vicinite de votre habitation peut fac
  * Saisissez <b data-interface-selector="[name=ServiceSetIdentifier]" data-layout="push" data-color="ctgreen">votre SSID</b>
  * Cliquez <b data-interface-selector="[value=Appliquer]" data-layout="push" data-color="ctorange">Appliquer</b>
  
-Notez que l'option *Open* dans *Type du reseau* n'a rien a voir avec le chiffrement. C'est une maladresse constructeur. Il s'agit en fait d'emettre ou non (cacher) votre SSID. En général, nous déconseillons de cacher votre SSID: cela n'apporte qu'un semblant de sécurité au detrimant de la simplicité. **L'option** ***Type de reseau "Open"*** **est sécurisée, et ne fait pas de votre réseau un réseau Ouvert.**
+Notez que l'option *Open* dans *Type du reseau* n'a rien à voir avec le chiffrement. C'est une maladresse constructeur. Il s'agit en fait d’émettre ou non (et donc de cacher) votre SSID. En général, nous déconseillons de cacher votre SSID: cela n'apporte qu'un semblant de sécurité au detrimant de la simplicité. **L'option** ***Type de reseau "Open"*** **est sécurisée, et ne fait pas de votre réseau un réseau Ouvert.**
 
 
 ## Chiffrement fort avec WPA2
 
-Le chiffrement WEP est obsolete depuis plus de 10 ans et ne devrait jamais etre utilise de nos jour. Ordinateurs et autres appareils mobiles supportent tous WPA depuis des annees. Pas d'excuses.
+Le chiffrement WEP est obsolète depuis plus de 10 ans et ne devrait jamais être utilisé de nos jour. Ordinateurs et autres appareils mobiles supportent tous WPA depuis des années. Pas d'excuses.
 
 <iframe data-interface >
   "src": "castlenet/wireless_security.html",
@@ -92,11 +90,11 @@ Le chiffrement WEP est obsolete depuis plus de 10 ans et ne devrait jamais etre 
 
 #### Choisir le chiffrement WPA2
 
- * Sous-menu <b data-interface-selector="[src='./assets/btn_security_y_g.gif']" data-color="ctorange">Securite</b>
- * Choisissez *Active* pour <b data-interface-selector="[name=Wpa2PskAuth]" data-layout="push" data-color="ctviolet">WPA2-PSK</b> (et pour aucun autre chiffrement)
+ * Sous-menu <b data-interface-selector="[src='./assets/btn_security_y_g.gif']" data-color="ctorange">Sécurité</b>
+ * Choisissez *Activé* pour <b data-interface-selector="[name=Wpa2PskAuth]" data-layout="push" data-color="ctviolet">WPA2-PSK</b> (et pour aucun autre chiffrement)
  * Choisissez *AES* pour <b data-interface-selector="[name=WpaEncryption]" data-layout="push" data-color="ctgreen">Chiffrement WPA/WPA2</b>
  
-*N'oubliez pas de valider vos changement ci-dessous! (ou cliquez maintenant sur* ***Appliquer***
+*N'oubliez pas, ci-dessous, de valider vos changements! (ou cliquez une première fois sur* ***Appliquer*** *dès maintenant)*
  
 
  
@@ -104,21 +102,21 @@ Le chiffrement WEP est obsolete depuis plus de 10 ans et ne devrait jamais etre 
  
 ## Pre Shared Key forte
 
-Viigil recommendent les **passphrases** pour tout mot de passe que vous devez retenir ou tapper regulierement. Votre PSK (Mot de passe wifi) sera rarement utilisé---par exemple lorsque vous avez un nouvel appareils qui n'est pas encore connecté a votre reseau Wi-Fi, et WPA, contrairement au chiffrement WEP (et autre site internet, qui peuvent parfois avoir des problèmes avec les espaces également) accepte des PSK longue (jusqu’à 63 caractères). N’hésitez donc pas a choisir une passphrase plus longue ou utilisez un mot de passe aléatoire conservé dans un coffre fort numérique.
+Viigil recommande les **passphrases** pour tout mot de passe que vous devez retenir ou taper régulièrement. Votre PSK (Mot de passe wifi) sera rarement utilisée---par exemple lorsque vous avez un nouvel appareil qui n'est pas encore connecté à votre réseau Wi-Fi, et WPA, contrairement au chiffrement WEP (et autres sites Internet qui peuvent parfois avoir des problèmes avec les espaces) accepte des PSK longues (jusqu’à 63 caractères). N’hésitez donc pas à choisir une passphrase plus longue ou utilisez un mot de passe aléatoire conservé dans un coffre fort numérique.
 
-#### Passphrase VS Mot de passe aleatoire
-Les passephrase sont plus facile a retenir, et souvent aussi rapide a entrer car elle contient des mots qui ont un sens pour vous (mais pas forcement des mots du dictionnaire, c'est d'ailleurs toujours mieux s'il ne s'y trouvent pas) contrairement aux mots de passe aleatoire ou beaucoup de gens hesitent/dechiffrent/se trompent a chaque charactere. Leur longueurs les rendent exponentiellement plus difficile a casser et leur ponctuations et majuscules permet d'ajouter de l'entropie naturellement (N'hesitez pas a en mettre, pensez egalement aux chiffres).
+#### Passphrase VS Mot de passe aléatoire
+Les passephrases sont plus faciles à retenir, et souvent même rapide à entrer car elle contient des mots qui ont un sens pour vous (mais pas forcement des mots du dictionnaire, c'est d'ailleurs toujours mieux s'ils ne s'y trouvent pas) contrairement aux mots de passe aléatoire ou beaucoup de gens hésitent, déchiffrent et se trompent à chaque caractère. Leur longueurs les rendent exponentiellement plus difficile à casser et leur ponctuation et majuscules permet d'ajouter de l'entropie naturellement (N’hésitez pas à en mettre, pensez également aux chiffres).
  
- Les passphrase sont donc souvent plus surs **et** plus faciles.
+ Les passphrases sont donc souvent plus sures **et** plus faciles.
  
 #### Choisir sa passphrase
-Ne vous compliquer pas nécessairement  la vie, surtout si vous devez retenir beaucoup de passphrases.<!--TODO: safe--> **La plus part des passphrases de plus de 4 mots devrait faire l'affaire.** Neanmoins plus vous respecterez ces quelque points, plus votre passphrase sera forte:
+Ne vous compliquez pas nécessairement  la vie, surtout si vous devez retenir beaucoup de passphrases.<!--TODO: safe--> **La plus part des passphrases de plus de 4 mots devrait faire l'affaire.** Néanmoins plus vous respecterez ces quelque points, plus votre passphrase sera forte:
 
-  * Au minimum **5 mots**. Cette règle seule peut suffire si vous n’utilisez pas les 5 mots les plus utilises du dictionnaire. Par contre, n'y déroger que si vous êtes sur de ce que vous faites. <!--*et* **10 caractères** au total-->
+  * Au minimum **5 mots**. Cette règle seule peut suffire si vous n’utilisez pas les 5 mots les plus utilisés du dictionnaire. Par contre, n'y déroger que si vous êtes sur de ce que vous faites. <!--*et* **10 caractères** au total // Always the case-->
   * Au moins une majuscule *et* une ponctuation *et* un chiffre.
-  * N’hésitez pas a utilisez des "langage personnel", moins les mots sont courant mieux c'est, mais **pas** de noms personnels (enfants, **animaux de compagnie** etc...)
-  * Moins la phrase a de sens *commun* mieux c'est
-  * Vous avez le droit de faire des f0tes d'orthogaphe! Faire des fautes syntaxique, orthographique ou de grammaire augmente grandement la securite de votre passphrase. Inventez des mots nouveaux (gardez les pour vous) et amusant, n'oubliez de garder une phrase simple a retenir---de maniere general plus la phrase est **atypique** plus elle **simple a reternir**.
+  * N’hésitez pas à utiliser des "langages *(vocabulaire, grammaire...)* personnels", moins les mots sont courant mieux c'est, mais **pas** de noms personnels (enfants, **animaux de compagnie** etc...)
+  * Moins la phrase à de sens *commun* mieux c'est
+  * Vous avez le droit de faire des f0tes d'orthogaphe! Faire des fautes syntaxique, orthographique ou de grammaire augmente grandement la sécurité de votre passphrase. Inventer des mots nouveaux (gardez les pour vous) et amusant, n'oubliez de garder une phrase simple à retenir---de manière général plus la phrase est **atypique** plus elle **simple a reternir**.
 <!-- length, number of items SPACE,NUMBER,WORD,PUNCTUATION is necessary
 Add count to examples -->
 <!-- See http://www.bu.edu/infosec/howtos/how-to-choose-a-password/ for article on passwords 
@@ -129,7 +127,7 @@ TODO: count words in passphrase -->
 
 #### Exemples 
 
-Soyez creatif! N'utilisez surtout pas les exemples ci-dessous! (Ou tout autre texte qu'un attaquant pourrait s'attendre a etre utilise)
+Soyez créatif! N'utilisez surtout pas les exemples ci-dessous! (Ou tout autre texte qu'un attaquant pourrait s'attendre à voir utilisé)
 
 Bon: "<b class="ctgreen">1 escalavelo</b> grimpe dans le <b class="ctgreen">G</b>rand <b class="ctgreen">C</b>edre." 
 Moins bon: "<b class="ctred">Marion</b> grimpe dans le grand cedre."
@@ -151,17 +149,18 @@ Moins bon: "La <b class="ctred">loutre</b> fait <b class="ctred">dix</b> brasses
 #### Changez votre passphrase
 
 * Cliquez <b data-interface-selector="[name=ShowWpaKey]" data-layout="push" data-color="ctgreen">afficher la clé</b>
-* Saisissez votre passphrase dans <b data-interface-selector="[name=WpaPreSharedKey]" data-layout="push" data-color="ctorange">Cle pre-partage WPA</b>
-* **Verifiez que votre cle correspond bien a celle que vous avez choisie.** Vous allez devoir l'utiliser maintenant pour reconnecter vos appareils.
+* Saisissez votre passphrase dans <b data-interface-selector="[name=WpaPreSharedKey]" data-layout="push" data-color="ctorange">Clé pré-partagé WPA</b>
+* **Vérifiez que votre clé correspond bien à celle que vous avez choisie.** Vous allez devoir l'utiliser maintenant pour reconnecter vos appareils.
 * Cliquez <b data-interface-selector="[value=Appliquer]" data-layout="push" data-color="ctyellow">Appliquer</b>
 
+Reconnectez maintenant vos appareils Wi-Fi avec votre nouvelle clé.
 
 
 
 ## Changement des identifiants de l'interface
-Le modem Castlenet va a l'encontre de toute les bases de la sécurité en ayant des identifiants par défaut qui sont de plus **les mêmes chez chaque abonné**.
+Le modem Castlenet va à l'encontre de toute les bases de la sécurité en ayant des identifiants **par défaut**, qui sont de plus **les mêmes chez chaque abonné**.
 
-Choisissez une passphrase de la meme maniere que pour votre PSK dans la rubrique *Pre Shared Key Forte*. Vous pouvez également utiliser un coffre fort numérique pour stocker et générer aléatoirement ce genre de mot de passe que vous utilisez peu souvent.
+Choisissez une passphrase de la même manière que pour votre PSK dans la rubrique *Pre Shared Key Forte*. Vous pouvez également utiliser un coffre fort numérique pour stocker et générer aléatoirement ce genre de mot de passe que vous utilisez peu souvent.
 
 <iframe data-interface >
   "src": "castlenet/status_security.html",
@@ -184,18 +183,18 @@ Choisissez une passphrase de la meme maniere que pour votre PSK dans la rubrique
 
 
 #### Etape 2: Changement du mot de passe de l'interface
-  * utilisateur: <b data-interface-selector="[name=UserId]" data-layout="push" data-color="ctgreen">admin</b>
+  * Utilisateur: <b data-interface-selector="[name=UserId]" data-layout="push" data-color="ctgreen">admin</b>
   * Entrez votre mot de passe dans <b data-interface-selector="[name=Password]" data-layout="push" data-color="ctorange">Nouveau mot de passe</b> **et** <b data-interface-selector="[name=PasswordReEnter]" data-layout="push" data-color="ctorange">Re-entrer le nouveau mot de passe</b>
   * Mot de passe actuel de l'utilisateur: <b data-interface-selector="[name=OldPassword]" data-layout="push" data-color="ctviolet">password</b>
 
-*N'oubliez pas de valider vos changement ci-dessous! (ou cliquez maintenant sur* ***Appliquer***)
+*N'oubliez pas, ci-dessous, de valider vos changements! (ou cliquez une première fois sur* ***Appliquer*** *dès maintenant)*
  
  
 ## Désactiver l’accès WAN a l'interface
 
-*L’accès WAN et WPS sont désactivé par défaut. Vérifiez: on est jamais trop prudent!*
+*L’accès WAN et WPS sont désactivés par défaut. Vérifiez: on est jamais trop prudent!*
 
-L'access par WAN vous permet d'acceder a l'interface de votre modem en dehors de chez vous. C'est une porte ouverte aux personnes mal intentionnées, surtout si par malheur vous avez les identifiants par défaut... A désactiver absolument sauf si vous en avez besoin dans un cas particulier (très rare).
+L’accès par WAN vous permet d’accéder a l'interface de votre modem en dehors de chez vous. C'est une porte ouverte aux personnes mal intentionnées, surtout si par malheur les identifiants par défaut sont utilisés... A désactiver absolument sauf si vous en aviez besoin dans un cas particulier (très rare).
  
 
 <iframe data-interface >
@@ -213,11 +212,11 @@ L'access par WAN vous permet d'acceder a l'interface de votre modem en dehors de
  
 ## Désactiver WPS
 
-WPS permet de se connecter un nouvel appareil (ou un appareil ayant "oublier" les parametres Wi-Fi) avec un simple PIN (code) ou un appuyant un boutton reserver a cet usage sur le routeur.
+WPS permet de connecter un nouvel appareil (ou un appareil ayant "oublié" les paramètres Wi-Fi) avec un simple PIN (code) ou un appuyant sur un bouton réserver à cet usage sur le routeur.
 
-La sécurité du mode PIN a toujours été casse depuis le début de sont existence avec des attaques pratiques des 2011.
+La sécurité du mode PIN est cassée, depuis le début de sont existence avec des attaques pratiques dés 2011.
 
-Le mode *boutton* n'a pas les meme probleme mais il est preferable de se connecter avec votre passphrase. De plus, la plupart des routeurs ne dissocie malheureusement pas les deux modes, obligeant l'utilisateur a se passer de WPS.
+Le mode *bouton* n'a pas les mêmes problèmes mais il est préférable de se connecter avec votre passphrase. De plus, la plupart des routeurs ne dissocie malheureusement pas les deux modes, obligeant l'utilisateur soucieux de sa sécurité à se passer de WPS.
 
 <iframe data-interface >
   "src": "castlenet/wireless_security.html",
